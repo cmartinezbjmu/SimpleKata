@@ -1,5 +1,5 @@
 
 
 class KataSimple:
-    def calcular(self,cadena):
+    def contar(self,cadena):
         return 0
