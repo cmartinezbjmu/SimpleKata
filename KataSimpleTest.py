@@ -18,3 +18,7 @@ class KataSimpleTest(TestCase):
     def test_contar_N_Numeros_retornarArreglo(self):
         self.assertEqual(KataSimple().contar("1,2:3,4:6,7,8,9"),[8], "Contar numeros y retornar un arreglo con la cantidad")
 
+    def test_cantNum_Menor(self):
+        self.assertEqual(KataSimple().contar("1,2:3,4:6,7,8,9"),[8,1], "Contar numeros y calcular el menor")
+
+
