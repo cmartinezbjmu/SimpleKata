@@ -12,3 +12,6 @@ class KataSimpleTest(TestCase):
     def test_contar_tresNumeros(self):
         self.assertEqual(KataSimple().contar("1,2,3"),3,"Contar tres numeros")
 
+    def test_contar_N_Numeros(self):
+        self.assertEqual(KataSimple().contar("1,2:3,4:6,7,8,9"),8, "Contar con diferentes separadores")
+
