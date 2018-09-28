@@ -5,6 +5,7 @@ class KataSimple:
         if cadena == "":
             return 0
         else:
+            cadena = cadena.replace(":",",")
             numeros = cadena.split(",")
             cantidad = 0
             for caracter in numeros:
