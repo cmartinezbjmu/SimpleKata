@@ -1,5 +1,5 @@
 
 
 class Estadistica:
-    def calcular(string):
-        pass
+    def calcular(self,string):
+        return 0

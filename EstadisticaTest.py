@@ -1,5 +1,6 @@
 from unittest import TestCase
-import Estadistica
+
+from Estadistica import Estadistica
 
 class EstadisticaTest(TestCase):
     def test_calcular(self):
