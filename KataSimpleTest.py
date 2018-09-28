@@ -1,6 +1,7 @@
 from unittest import TestCase
 
-from KataSimple import Estadistica
+from KataSimple import KataSimple
 
 class KataSimpleTest(TestCase):
-    pass
+    def test_calcular(self):
+        self.assertEqual(KataSimple().calcular(""),0,"Cadena vacia")

@@ -1,4 +1,5 @@
 
 
-class Estadistica:
-    pass
+class KataSimple:
+    def calcular(cadena):
+        pass
